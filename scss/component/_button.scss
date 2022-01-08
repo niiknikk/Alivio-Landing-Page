@@ -1,0 +1,31 @@
+.btn{
+    position: relative;
+    display: inline-block;
+    font-family: $ff-button;
+    
+    &:focus{
+        outline: 0;
+    }
+    &:active{
+        box-shadow: none !important;
+        outline: 0;
+    }
+
+    &-primary{
+        background: $primary-color;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 4px;
+        border: 2px solid $primary-color;
+        text-align: center;
+        font-size: 16px;
+
+        &:hover{
+            border-color: $primary-color-hover;
+            background-color:$primary-color-hover;
+        }
+    }
+    &-nav{
+        padding: 8px 16px;
+    }
+}
