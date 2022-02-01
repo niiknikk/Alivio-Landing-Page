@@ -1,4 +1,4 @@
-# Alivio Landing Page using HTML SCSS and Vanilla Javascript 
+# Alivio - Landing Page using HTML SCSS and Vanilla Javascript 
 
 Welcome to this repo.
 
